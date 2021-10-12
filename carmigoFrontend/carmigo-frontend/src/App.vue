@@ -57,8 +57,8 @@ import PostComponent from './components/PostComponent.vue'
     data: () => ({
        drawer: null,
         items: [
-          { title: 'Cars', icon: 'mdi-car', to: '/' },
-          { title: 'About', icon: 'mdi-help-box', to: '/about' },
+          { title: 'Add Car', icon: 'mdi-car', to: '/' },
+          { title: 'View Cars', icon: 'mdi-help-box', to: '/about' },
         ],
         }),
   }

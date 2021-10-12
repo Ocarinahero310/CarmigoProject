@@ -1,8 +1,5 @@
 <template>
   <div class="card text-center m-3">
-    <h5 class="card-header">GET Request with Async/Await</h5>
-    <div class="card-body">Total vue packages: {{vehicles}}</div>
-    <div class="card-body">Total vue packages: {{vehiclesOne}}</div>
     <v-simple-table>
       <template v-slot:default>
         <thead>
