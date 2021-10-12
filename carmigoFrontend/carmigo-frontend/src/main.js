@@ -8,6 +8,7 @@ import Axios from "axios";
 
 Vue.config.productionTip = false
 Vue.prototype.$http=Axios;
+
 new Vue({
   router,
   store,

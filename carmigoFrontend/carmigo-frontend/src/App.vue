@@ -45,12 +45,15 @@
 
     <v-main>
         <router-view></router-view>
+        <!-- <post-component /> -->
     </v-main>
   </v-app>
 </template>
 
 <script>
+import PostComponent from './components/PostComponent.vue'
   export default {
+  components: { PostComponent },
     data: () => ({
        drawer: null,
         items: [
